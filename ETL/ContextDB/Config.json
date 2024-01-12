@@ -1,0 +1,3 @@
+{
+  "ConnectionString": "Server=(localdb)\\ZevsDB;Database=master;User Id=Nikita;Password=1234;"
+}

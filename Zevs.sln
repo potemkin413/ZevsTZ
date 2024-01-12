@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ETL.Domain", "ETL.Domain", "{D47936F9-C691-41CC-82D2-5C46BC83EF79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETL", "ETL\ETL.csproj", "{09328EC1-54B2-4367-9534-6275E7BC9F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API.Domain", "API.Domain", "{D03A8D5A-7C1A-40D9-945A-EB838C568ABD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{6D9EABF1-54BA-461A-B8CC-6017528A7B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CountriesFile", "CountriesFile", "{CFDFDA42-6BEE-4569-9C6E-8DB1D9BAC2B7}"
+	ProjectSection(SolutionItems) = preProject
+		Countries.txt = Countries.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09328EC1-54B2-4367-9534-6275E7BC9F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09328EC1-54B2-4367-9534-6275E7BC9F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09328EC1-54B2-4367-9534-6275E7BC9F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09328EC1-54B2-4367-9534-6275E7BC9F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9EABF1-54BA-461A-B8CC-6017528A7B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9EABF1-54BA-461A-B8CC-6017528A7B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9EABF1-54BA-461A-B8CC-6017528A7B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9EABF1-54BA-461A-B8CC-6017528A7B19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09328EC1-54B2-4367-9534-6275E7BC9F26} = {D47936F9-C691-41CC-82D2-5C46BC83EF79}
+		{6D9EABF1-54BA-461A-B8CC-6017528A7B19} = {D03A8D5A-7C1A-40D9-945A-EB838C568ABD}
+		{CFDFDA42-6BEE-4569-9C6E-8DB1D9BAC2B7} = {D47936F9-C691-41CC-82D2-5C46BC83EF79}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2FFC1F7-1FEF-44EB-8F18-67792941983A}
+	EndGlobalSection
+EndGlobal
